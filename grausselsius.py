@@ -8,7 +8,7 @@ def tem_fah(cel_1):
 
 temperatura = tem_fah(celsius)
 
-print('Sua temperatura convertida é de',temperatura,'Fahrenheit')
+print(f'Sua temperatura convertida é de {temperatura} Fahrenheit')
 
 if temperatura >= 68:
     print('Hoje a temperatura está um pouco elevada\nBeba bastante água')
